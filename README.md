@@ -41,11 +41,13 @@ With elements such as <html> you can add _Attributes_ which lie inside of the el
 - For example <html lang="us-EN"> 
 - This html element now has the attribute lang that provide the language "us-EN" as the websites standard.
 
-That standard for most web pages requires a <!DOCTYPE html> and <meta> element such as:
-- <!DOCTYPE html>
-- <meta charset="UTF-8">
-- <meta name="author" content="Devop Parker">
-- <meta name="description" content="This page contains information to learn HTML">
+The standard for most web pages requires element such as:
+```
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="author" content="Devop Parker">
+<meta name="description" content="This page contains information to learn HTML">
+```
 
 ### Common Attributes
 
@@ -54,5 +56,5 @@ That standard for most web pages requires a <!DOCTYPE html> and <meta> element s
 - The href attribute specifies the URL of the page the link goes to.
 - You can use href="#top" or href="#" to link to the top of the current page
 
-The ```<link rel="icon" href="html5.png" type="image/x-icon">`` element can be used to add an icon to the title of the webpage, using the href attribute to specify the location of the icon picture.
+The ```<link rel="icon" href="html5.png" type="image/x-icon">``` element can be used to add an icon to the title of the webpage, using the href attribute to specify the location of the icon picture.
 
