@@ -4,7 +4,7 @@ HTML (HyperText Markup Language) is the most basic building block of the Web. It
 
 HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements"
 
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[HTML Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ## Key Elements to Know
 ```
@@ -56,5 +56,13 @@ The standard for most web pages requires element such as:
 - The href attribute specifies the URL of the page the link goes to.
 - You can use href="#top" or href="#" to link to the top of the current page
 
-The ```<link rel="icon" href="html5.png" type="image/x-icon">``` element can be used to add an icon to the title of the webpage, using the href attribute to specify the location of the icon picture.
+```
+<link rel="icon" href="html5.png" type="image/x-icon">
+<link rel="stylesheet" href="main.css" type="text/css">
 
+```
+The link element can be used with href to add icons to the title, and even "link" your css stylesheet to your index.html file.
+
+_"White space"_ refers to empty or blank values in the code which the browser reads and renders. Html has a special feature of collapsing these white spaces. If you put extra/consecutive white spaces or newlines in the code it will regard it as one white space this is known as collapsing of white spaces.
+
+The '''<br>''' tag allows us to "break" the link in for example a paragraph.
