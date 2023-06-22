@@ -72,11 +72,28 @@ Every HTML element has a default display value, depending on what type of elemen
 There are two display values: block and inline.
 
 ### Block-level Elements
+
 A block-level element always starts on a new line, and the browser automatically add some space (margin) before and after the element.
 
 Two common block elements are:
 ``` <p> and <div> ```
 
 ### Inline Elements
+
 An inline element does not start on a new line. An inline element only takes up as much widthg as necessary
-For example a ``` <span> ``` element inside a paragraph.
+For example a ```<span>, <em> or <strong>``` element inside a paragraph.
+
+### HTML Entitys
+
+These entities are used to represent special characters or symbols that have special meanings in HTML, ensuring they are displayed correctly in the browser.
+
+`&amp;` - Represents the ampersand character '&'.
+`&lt;` - Represents the less-than symbol '<'.
+`&gt;` - Represents the greater-than symbol '>'.
+`&quot;` - Represents the double quotation mark '"'.
+`&apos;` - Represents the apostrophe character ''', though not widely supported in HTML.
+`&nbsp;` - Represents a non-breaking space.
+`&copy;` - Represents the copyright symbol '©'.
+`&reg;` - Represents the registered trademark symbol '®'.
+`&trade;` - Represents the trademark symbol '™'.
+`&euro;` - Represents the euro currency symbol '€'.
