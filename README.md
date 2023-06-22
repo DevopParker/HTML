@@ -7,6 +7,7 @@ HTML (HyperText Markup Language) is the most basic building block of the Web. It
 HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements"
 
 ## Key Terms to Know
+```
 <head>
 <title>
 <body>
@@ -31,3 +32,4 @@ HTML uses "markup" to annotate text, images, and other content for display in a 
 <ul>
 <ol>
 <li> 
+```
