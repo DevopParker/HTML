@@ -87,6 +87,7 @@ For example a ```<span>, <em> or <strong>``` element inside a paragraph.
 
 These entities are used to represent special characters or symbols that have special meanings in HTML, ensuring they are displayed correctly in the browser.
 
+```
 `&amp;` - Represents the ampersand character '&'.
 `&lt;` - Represents the less-than symbol '<'.
 `&gt;` - Represents the greater-than symbol '>'.
@@ -97,3 +98,4 @@ These entities are used to represent special characters or symbols that have spe
 `&reg;` - Represents the registered trademark symbol '®'.
 `&trade;` - Represents the trademark symbol '™'.
 `&euro;` - Represents the euro currency symbol '€'.
+```
