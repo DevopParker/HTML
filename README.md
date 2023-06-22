@@ -101,14 +101,14 @@ These entities are used to represent special characters or symbols that have spe
 &euro; - Represents the euro currency symbol '€'.
 ```
 
-### References to useful information about HTML
-[HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-[Named character references](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references)
-[Semantics in HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
-[HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
-[Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
-[HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
-[HTML table advanced features and accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)
-[Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
-[The Form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+### References to useful information about HTML:
+- [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [Named character references](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references)
+- [Semantics in HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+- [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+- [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
+- [HTML table advanced features and accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)
+- [Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+- [The Form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
