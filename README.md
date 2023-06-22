@@ -39,8 +39,8 @@ The W3C Markup Validation Service is an online tool provided by the World Wide W
 ```
 
 With elements such as `<html>` you can add _Attributes_ which lie inside of the element.
-- For example `<html lang="us-EN">`
-- This html element now has the attribute lang that provide the language "us-EN" as the websites standard.
+- For example `<html lang="en-US">`
+- This html element now has the attribute lang that provides the language "en-US" as the websites standard.
 
 The standard for most web pages requires element such as:
 ```
@@ -49,6 +49,7 @@ The standard for most web pages requires element such as:
 <meta name="author" content="Devop Parker">
 <meta name="description" content="This page contains information to learn HTML">
 ```
+- These elements provide details about your webpage, such as the "html" Documentation Type and the meta data that can be used to locate particular details about your website.
 
 ### Common Attributes
 
