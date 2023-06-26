@@ -101,6 +101,10 @@ These entities are used to represent special characters or symbols that have spe
 &euro; - Represents the euro currency symbol '€'.
 ```
 
+### Lists
+
+
+
 ### References to useful information about HTML:
 - [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
