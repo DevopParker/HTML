@@ -53,10 +53,12 @@ The standard for most web pages requires element such as:
 
 ### Common Attributes
 
-```<a href="URL">```
+```<a href="URL or FileLocation">```
 
 - The href attribute specifies the URL of the page the link goes to.
-- You can use href="#top" or href="#" to link to the top of the current page
+- You can use href="#top" or href="#" to link to the top of the current page.
+- Adding the download tag inside of an anchor tag allows the user to download the contents of that href inside of the anchor tag.
+- Another useful tag for the anchor element is ```target="_blank"``` this allows you to open the href into a new browser tab.
 
 ```
 <link rel="icon" href="html5.png" type="image/x-icon">
@@ -102,6 +104,18 @@ These entities are used to represent special characters or symbols that have spe
 ```
 
 ### Lists
+
+```
+<ol> - Ordered Lists
+<ul> - Unordered Lists
+<li> - List items
+<dl> - Description List
+<dt> - Description Term
+<dd> - Description Details
+```
+For lists you can start it with the ol, ul, or dl elements. Inside that block you will add items such as li to start the items in that list. ```<dl>``` sits flush with the left side of the page, unlike ```<ol>``` and can use terms and details to create a more detailed type of list.
+
+
 
 
 
