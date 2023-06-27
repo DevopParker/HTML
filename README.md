@@ -185,7 +185,7 @@ HTML includes:
 ![image](img/Semantics.png)
 
 These elements are all very useful in defining the Heirarchy of the HTML5 page.
-While some elements are still commonly used in the practice such as ```<div> and <span>``` they provide very little semantics to the site.
+While some elements are still commonly used in the practice such as `<div>` and `<span>` they provide very little semantics to the site.
 
 ### References to useful information about HTML:
 - [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
