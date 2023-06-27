@@ -157,7 +157,7 @@ HTML includes:
 - <footer>
 ```
 
-![image](imgs/HTML5-Semantics.webp)
+![image](img/Semantics.png)
 
 These elements are all very useful in defining the Heirarchy of the HTML5 page.
 While some elements are still commonly used in the practice such as ```<div> and <span>``` they provide very little semantics to the site.
