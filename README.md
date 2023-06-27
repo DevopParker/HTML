@@ -115,9 +115,52 @@ These entities are used to represent special characters or symbols that have spe
 ```
 For lists you can start it with the ol, ul, or dl elements. Inside that block you will add items such as li to start the items in that list. ```<dl>``` sits flush with the left side of the page, unlike ```<ol>``` and can use terms and details to create a more detailed type of list.
 
+### Images
 
+The ```<img>``` element is used to implement images onto a webpage. The img element has multiple attributes that are essential to create a healthy image on the page. The most import attribute would be the src="" attribute. This allows the element to find the source of the image in the websites file system. Most common practice would be to create an img folder to have all of your images in one place, and easily accessible.
 
+Example:
+```<img src="img/html_logo.png" alt="HTML5 Logo" title="HTML5" width="300" height="300">```
 
+- The alt attribute is used for screen readers and when the image fails to load, it will be replaced by the text inside.
+- The title attribute is the text displayed when hovering over the image.
+- The width and height attributes (in pixels) will crop the image to the size given, this doesn't always crop nicely, it should mostly be used with the identical size of the original image.
+
+There is also a attribute type ```loading=""```.
+By default, this is set to "eager" which loads all images on the page immediately.
+The term "lazy" refers to a useful value that delays the loading of images until certain criteria are met, such as when they are beyond the current page's scope and will be loaded in only when the user scrolls down. This allows better perfomance on the webpage if you have many pictures that don't instantly load into the page when the user opens it.
+
+An element that goes well with images, is the ```<figure>``` element. This allows you to create captions with the item or object inside of the figure's codeblock. Inside of the figure element, you can use ```<figcaption>``` to create a caption right below or above the item.
+
+### Image Sources
+- [Loremipsum](https://loremipsum.io/) - This has tons of placeholders to help when designing a website, including image placeholders
+- [Unspalsh](https://unsplash.com/) - This site contains free images that are allowed to be used on your website.
+- [Pexels](https://www.pexels.com/) - Same as Unsplash
+- [IrfanView](https://www.irfanview.com/) - An application with tons of image editing features to resize, crop and many more.
+
+### HTML5 Hierarchy
+
+Semantic HTML refers to the use of HTML tags that convey the meaning or semantics of the content contained within them.
+By adding semantic HTML tags to your pages, you provide additional information that helps define the roles and relative importance of the different parts of your page. Semantic 
+
+HTML includes:
+
+```
+- <header>
+- <nav>
+- <main>
+- <article>
+- <figure>
+- <p>
+- <section>
+- <aside>
+- <footer>
+```
+
+![image](imgs/HTML5-Semantics.webp)
+
+These elements are all very useful in defining the Heirarchy of the HTML5 page.
+While some elements are still commonly used in the practice such as ```<div> and <span>``` they provide very little semantics to the site.
 
 ### References to useful information about HTML:
 - [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
