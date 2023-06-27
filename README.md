@@ -53,12 +53,12 @@ The standard for most web pages requires element such as:
 
 ### Common Attributes
 
-```<a href="URL or FileLocation">```
+`<a href="URL or FileLocation">`
 
 - The href attribute specifies the URL of the page the link goes to.
 - You can use href="#top" or href="#" to link to the top of the current page.
 - Adding the download tag inside of an anchor tag allows the user to download the contents of that href inside of the anchor tag.
-- Another useful tag for the anchor element is ```target="_blank"``` this allows you to open the href into a new browser tab.
+- Another useful tag for the anchor element is `target="_blank"` this allows you to open the href into a new browser tab.
 
 ```
 <link rel="icon" href="html5.png" type="image/x-icon">
@@ -68,7 +68,7 @@ The link element can be used with href to add icons to the title, and even "link
 
 _"White space"_ refers to empty or blank values in the code which the browser reads and renders. Html has a special feature of collapsing these white spaces. If you put extra/consecutive white spaces or newlines in the code it will regard it as one white space this is known as collapsing of white spaces.
 
-The ```<br>``` tag allows us to "break" the link in for example a paragraph.
+The `<br>` tag allows us to "break" the link in for example a paragraph.
 
 Every HTML element has a default display value, depending on what type of element it is.
 
@@ -78,13 +78,12 @@ There are two display values: block and inline.
 
 A block-level element always starts on a new line, and the browser automatically add some space (margin) before and after the element.
 
-Two common block elements are:
-``` <p> and <div> ```
+Two common block elements are: `<p>` and `<div>`
 
 ### Inline Elements
 
 An inline element does not start on a new line. An inline element only takes up as much width as necessary
-For example a ```<span>, <em> or <strong>``` element inside a paragraph.
+For example a `<span>`, `<em>` or `<strong>` element inside a paragraph.
 
 ### HTML Entitys
 
@@ -113,7 +112,7 @@ These entities are used to represent special characters or symbols that have spe
 <dt> - Description Term
 <dd> - Description Details
 ```
-For lists you can start it with the ol, ul, or dl elements. Inside that block you will add items such as li to start the items in that list. ```<dl>``` sits flush with the left side of the page, unlike ```<ol>``` and can use terms and details to create a more detailed type of list.
+For lists you can start it with the ol, ul, or dl elements. Inside that block you will add items such as li to start the items in that list. `<dl>` sits flush with the left side of the page, unlike `<ol>` and can use terms and details to create a more detailed type of list.
 
 ### Images
 
@@ -126,17 +125,43 @@ Example:
 - The title attribute is the text displayed when hovering over the image.
 - The width and height attributes (in pixels) will crop the image to the size given, this doesn't always crop nicely, it should mostly be used with the identical size of the original image.
 
-There is also a attribute type ```loading=""```.
+There is also a attribute type `loading=""`
 By default, this is set to "eager" which loads all images on the page immediately.
 The term "lazy" refers to a useful value that delays the loading of images until certain criteria are met, such as when they are beyond the current page's scope and will be loaded in only when the user scrolls down. This allows better perfomance on the webpage if you have many pictures that don't instantly load into the page when the user opens it.
 
-An element that goes well with images, is the ```<figure>``` element. This allows you to create captions with the item or object inside of the figure's codeblock. Inside of the figure element, you can use ```<figcaption>``` to create a caption right below or above the item.
+An element that goes well with images, is the `<figure>` element. This allows you to create captions with the item or object inside of the figure's codeblock. Inside of the figure element, you can use `<figcaption>` to create a caption right below or above the item.
 
 ### Image Sources
 - [Loremipsum](https://loremipsum.io/) - This has tons of placeholders to help when designing a website, including image placeholders
 - [Unspalsh](https://unsplash.com/) - This site contains free images that are allowed to be used on your website.
 - [Pexels](https://www.pexels.com/) - Same as Unsplash
 - [IrfanView](https://www.irfanview.com/) - An application with tons of image editing features to resize, crop and many more.
+
+### Tables
+
+Tables structure tabular data, made up of columns and rows.
+These are commonly used for calenders, schedules, statistics and more.
+
+An example table:
+
+```
+<table>
+  <tr> 
+    <td>Column 1</td>
+    <td>Column 2</td>
+    <td>Column 3</td>
+  </tr>
+  <tr> 
+    <td>Column 1</td>
+    <td>Column 2</td>
+    <td>Column 3</td>
+  </tr>
+</table>
+```
+
+An HTML table is created with an opening `<table>` tag and a closing `</table>` tag. Inside these tags, data is organized into rows and columns by using opening and closing table row `<tr>` tags and opening and closing table data `<td>` tags.
+
+Table row `<tr>` tags are used to create a row of data. Inside opening and closing table `<tr>` tags, opening and closing table data `<td>` tags are used to organize data in columns.
 
 ### HTML5 Hierarchy
 
